@@ -1,0 +1,59 @@
+
+/**
+ * Structure 
+ */
+ 
+.structure .item {
+	position: relative;
+}
+
+/*.structure.hoverable .item:hover .content {
+	display: block;
+}*/
+
+.structure li > a {	
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.structure li > a > img {
+	width: 24px;
+	height: 24px;
+}
+
+.structure .content li > a {
+	white-space: nowrap;
+}
+
+.structure .content li > a.active {
+	background-color: #eeeeee;
+}
+
+.structure.floatation .item > .content {
+	position: absolute;
+	display: none;
+	z-index: 9999;
+	background-color:#ffffff;
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
+	border-radius: 12px;
+	padding: 8px;
+}
+
+.structure .level1 {
+	padding-left: 24px;
+}
+
+.structure .level2 {
+	padding-left: 48px;
+}
+
+.structure .level3 {
+	padding-left: 72px;
+}
+
+.structure .level1, 
+.structure .level2, 
+.structure .level3 {
+	font-size: 0.9em;
+}

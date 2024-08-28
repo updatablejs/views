@@ -1,0 +1,48 @@
+
+/**
+ * Selector
+ */
+
+.selector {
+	display: flex;
+}
+
+.selector h3 {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.selector .included, 
+.selector .excluded {
+	position: relative;
+	width: 160px;
+	max-height: 560px;
+	border: 1px solid #e0e0e0;
+	border-radius: 16px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.selector .included {
+	margin-right: 24px;
+}
+
+.selector li {
+	padding: 16px;
+}
+
+.selector button {
+	font-size: 0.9em;
+	margin-left: 8px;
+}
+
+.selector .message {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.selector._overlay:before {
+	background-color: #ffffff;
+}

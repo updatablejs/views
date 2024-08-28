@@ -1,0 +1,36 @@
+
+/**
+ * ChartCard
+ */
+
+.chart-card {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 320px;
+	height: 400px;
+	padding: 24px;
+	border-radius: 16px;
+	border: 1px solid #e0e0e0;
+}
+
+.chart-card > .current-value {
+	position: absolute;
+	z-index: 99;
+}
+
+.chart-card > .current-value .date {
+	font-size: 0.9em;
+}
+
+.chart-card .chart {
+	flex-grow: 1;
+}
+
+.chart-card h3 {
+	margin: 0;
+}
+
+.chart-card .subtitle {
+	padding-top: 8px;
+}
